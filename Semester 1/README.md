@@ -1,3 +1,3 @@
-## Program C++ Praktikum Pemrograman Terstruktur Semester 1
+## Semester 1
 
-Informatika ITATS.
+Modoul 1 - 4
