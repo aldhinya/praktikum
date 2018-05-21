@@ -1,3 +1,6 @@
-## Program C++ Praktikum Pemrograman Terstruktur
+## Program C++ Praktikum Semester 1-2
 
-Informatika ITATS.
+- Pemrograman Terstruktur
+- Struktur Data
+
+contact@aldhi.net - Informatika ITATS.
