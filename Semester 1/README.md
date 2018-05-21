@@ -1,3 +1,3 @@
-## Semester 1
+## Semester 1 - Pemrograman Terstruktur
 
 Modoul 1 - 4
