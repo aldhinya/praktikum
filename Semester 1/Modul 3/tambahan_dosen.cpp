@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    int jumlah, kls ;
+    int jumlah[10], kls ;
     char ulang,nama[5][5][20], kelas[10][10];
     float nilai[10][10][10],akhir[5][5];
     do
@@ -20,14 +20,14 @@ int main()
         cin>>kls;
         for(int b=1; b<=kls; b++)
         {
-            cout<<"\n> KELAS KE-"<<b<<" = ";
+            cout<<"\n> NAMA KELAS KE-"<<b<<" = ";
             cin>>kelas[b];
             strupr (kelas[b]);
 
             cout<<"> MASUKKAN JUMLAH MAHASISWA : ";
-            cin>>jumlah;
+            cin>>jumlah[b];
 
-            for(int i=1; i<=jumlah; i++)
+            for(int i=1; i<=jumlah[b]; i++)
             {
                 cout<<"\nMAHASISWA KE-"<<i<<endl;
                 cout<<"-------------------------------------"<<endl;
@@ -53,7 +53,7 @@ int main()
             cout<<setw(35)<<"Tugas"<<setw(10)<<"UTS"<<setw(10)<<"UAS"<<setw(10)<<"AKHIR";
             cout<<"\n-------------------------------------------------------------------------------------"<<endl;
 
-            for(int a=1; a<=jumlah; a++)
+            for(int a=1; a<=jumlah[b]; a++)
             {
                 cout<<setw(3)<<a<<setw(15)<<nama[b][a]<<setw(17)<<nilai[b][a][0]<<setw(10)<<nilai[b][a][1]<<setw(10)<<nilai[b][a][2];
                 akhir[b][a]=(nilai[b][a][0]+nilai[b][a][1]+nilai[b][a][2])/3;
@@ -86,7 +86,7 @@ int main()
                 cout<<endl;
             }
             cout<<"-------------------------------------------------------------------------------------"<<endl;
-            cout<<"TOTAL MAHASISWA KELAS "<<kelas[b]<<" = "<<jumlah<<endl;
+            cout<<"TOTAL MAHASISWA KELAS "<<kelas[b]<<" = "<<jumlah[b]<<endl;
         }
         cout<<endl;
         cout<<"Ulang Kembali ( Y/T )? ";
