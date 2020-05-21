@@ -3,4 +3,4 @@
 - Pemrograman Terstruktur
 - Struktur Data
 
-contact@aldhi.net - Informatika ITATS.
+hi@rochman.id - Informatika ITATS.
